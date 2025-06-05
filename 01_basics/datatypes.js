@@ -21,4 +21,17 @@ let isLoggedin=false
 
 console.log(typeof "Medhansh")
 
+/*Primitive =>
+    7 types : String , Number , boolean, null , undefined,symbol ,BigInt
+
+
+
+reference types=>
+    array , objects , functions 
+
+*/
+
+
+
+
 
