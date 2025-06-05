@@ -3,7 +3,7 @@
 
 const Jsuser={
     name:"Medhansh",
-    fullname:"Medhansh Mathur",
+    "full name":"Medhansh Mathur",
     age :18,
     location:"delhi",
     email:"medhansh@gmail.com",
@@ -16,6 +16,14 @@ const Jsuser={
 console.log(Jsuser.email)
 Jsuser.email="medhuu@gmail.com"
 console.log(Jsuser.email)
+
+console.log(Jsuser["full name"])
+//to access string datatype we have to use square bracket 
+//square bracket method is another way of accessing elements in object
+
+
+
+
 //Object.freeze(Jsuser)
 //Jsuser is freezed hence we cant change values now 
 
@@ -23,4 +31,4 @@ Jsuser.greeting= function(){
     console.log("Hello JS USER");
 }
 
-console.log(Jsuser.greeting) 
+console.log(Jsuser.greeting()) 
