@@ -13,7 +13,7 @@ function Login(username){
         console.log("pls enter a username")
         return
     }
-    return  `${username} just logged in`   //using backtags ` for string manipulation
+    return  `${username} just logged in`   //using backtickr string manipulation
 
 
 }
